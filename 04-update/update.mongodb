@@ -1,0 +1,24 @@
+use("utt_jecl_store");
+
+db.products.updateOne({ _id: 2 }, { name: "Change Name" });
+
+db.products.updateOne(
+  { _id: 2 },
+  {
+    $set: { name: "Change Name" },
+  }
+);
+
+
+
+db.products.updateOne(
+    { _id: 2 },
+    {
+      $set: { 
+        name: "Change Name",
+        price:1500,
+        tags: ['S', 'M', 'X'] 
+    },
+    }
+  );
+  

@@ -1,0 +1,14 @@
+use("sample_training")
+
+db.zips.updateMany(
+    {
+        //query busqueda
+        city: "CLEVELAND"
+    },
+    //suma de pop
+    {
+        $rename:{
+            myAtt: "my_data"
+        }
+    }
+)

@@ -1,0 +1,12 @@
+use ("utt_jecl_store")
+
+db.products.updateOne(
+    {
+        _id: ObjectId('67c76d919be029daa6aaf971')
+    },
+    {
+        $inc:{
+            price:97
+        }
+    }
+)

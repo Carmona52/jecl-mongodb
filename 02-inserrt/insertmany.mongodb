@@ -1,0 +1,8 @@
+use ("utt_jecl_store")
+
+db.pproducts.insertOne(
+    {
+    name: "Product 2",
+    price: 100
+    }
+)

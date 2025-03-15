@@ -1,0 +1,19 @@
+use ("utt_jecl_store")
+db.products.insertMany([
+    {
+        _id: 1,
+        name: "Producto 1",
+        price: 100
+    },
+    {
+         _id: 2,
+        name: "Producto 2",
+        price: 240
+    },
+    {
+         _id: 3,
+        name: "Producto 3",
+        price: 360
+    }
+    
+])

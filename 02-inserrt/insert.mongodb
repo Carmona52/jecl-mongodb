@@ -1,0 +1,65 @@
+use ("utt_jecl_store")
+
+db.products.insertOne(
+    {
+    _id:"2025-01",
+    name: "Product 1",
+    price: 1000
+    }
+)
+
+db.products.insertOne(
+    {
+    _id:"2025-02",
+    name: "Product 2",
+    price: 100
+    }
+)
+
+db.products.insertOne(
+    {
+    _id:"2025-03",
+    name: "Product 3",
+    price: 200
+    }
+)
+
+db.products.insertOne(
+    {
+    _id:"2025-04",
+    name: "Product 4",
+    price: 150
+    }
+)
+db.products.insertOne(
+    {
+    _id:"2025-05",
+    name: "Product 1",
+    price: 1000
+    }
+)
+
+db.products.insertOne(
+    {
+    _id:"2025-06",
+    name: "Product 2",
+    price: 100
+    }
+)
+
+db.products.insertOne(
+    {
+    _id:"2025-07",
+    name: "Product 3",
+    price: 200
+    }
+)
+
+
+db.products.insertOne(
+    {
+    _id:"2025-08",
+    name: "Product 4",
+    price: 150
+    }
+)

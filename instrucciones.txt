@@ -1,0 +1,30 @@
+crear repositorio en github
+"Inicio de proyecto MongoDB: JECL"
+
+
+
+Si en el nombre tiene un $, es por que es un Operador
+$inc : Incremeta el valor númerico en una cantidad específica
+$set : Asigna un valor específico a un atributo 
+$mul: Multiplica el valor de un atributo númerico por un valor específico
+$rename : Cambia el nombre de un atributo
+$unset : Elimina un atributo de un documento 
+$min : Actualiza el valor de un atributo con un valor minimo especificado, solo si el valor actual es mayor al valor especificado
+$max : Actualiza el valor de un atributo con el valor máximo especificado, solo si el valor actual es menor al valor especificado
+$currentDate : Establece el valor de un atributo como la fecha o la hora actual 
+$addToSet : añade un valor a un atributo de tipo conjunto (ARRAY), solo si el valor no existe en el conjunto 
+$pop : Elimina el primer o último elemento de un atributo ARRAY 
+$pull : Elimina un valor específico de un atributo tipo ARRAY
+$push : añade un valor a un atributo de tipo conjunto ARRAY
+$pushAll: Elimina varios valores específicos de un ARRAY
+
+Metodos: 
+mongod --version
+mongo --version
+
+db.help()
+db.stats() Detalles de la base de datos junto con
+db.dropDatabase()
+db.createCollection
+db.nombreCollection.drop()
+insert() o insertOne()
